@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  /* 📄 종이 질감의 부드러운 미색과 먹색 폰트 고정 */
+  --background: #f9f8f6;
+  --foreground: #2d3748;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* 폰트를 Next.js 기본 내장 고정폭 코딩 폰트(Geist Mono)로 강제 지정 */
+  font-family: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
